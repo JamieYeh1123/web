@@ -1,0 +1,309 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap{
+	margin: 0 auto;
+	width: 1100px;
+}
+.header{
+	height: 30px;
+	background-color: #f6f6f6;
+}
+.top_header{
+	width: 300px;
+	height: 30px;
+	float: right;
+	text-align: center;
+	line-height: 30px;
+}
+.top_header ul{
+	float: right;
+}
+.top_header li{
+	float: left;
+}
+.top_header li a{
+	display: block;
+	width: 145px;
+	text-decoration: none;
+}
+.top_header li a img{
+	padding-right: 2px;
+	vertical-align: text-top;
+}
+#facebook{
+	color: #4460a0;
+	font-size: 22px;
+	border-right: 2px solid #cccccc;
+	padding-right: 2px;
+}
+#twitter{
+	color:#00aaec;
+	font-size: 22px;
+}
+.menu{
+	height: 60px;
+}
+.logo{
+	padding-top: 15px;
+	float: left;
+}
+.top_menu{
+	float: right;
+}
+.top_menu li{
+	float: left;
+	margin-right: 20px;
+	line-height: 60px;
+}
+.top_menu a{
+	text-decoration: none;
+	color: #00cc99;
+	font-size: 22px;
+}
+.top_menu a:hover{
+	text-decoration: none;
+	padding-bottom: 15px;
+	border-bottom: #00cc99 3px solid;
+}
+.img_pc img{
+	position:absolute;
+	z-index: 1;
+	width: 1100px;
+}
+.img_text{
+	position: absolute;
+	z-index: 2;
+	width: 1080px;
+	height: 100px;
+	margin-top: 100px;
+	padding-left: 20px;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	vertical-align: middle;
+	background:rgba(0,0,0,0.3);
+}
+.img_text h1{
+	font-size: 35px;
+	font-weight:bold;
+	color: #ffffff;
+}
+.content{
+	margin-top: 400px;
+}
+.html_text{
+	width: 350px;
+	border: 1px rgb(209, 207, 207) solid;
+	float: left;
+	margin-right: 20px;
+	box-shadow:0 5px 4px -4px gray;
+}
+.html_text img{
+	margin-top: 20px;
+	margin-left: 100px;
+}
+.html5{
+	display: flex;
+    margin-left: 80px;
+	padding-top: 10px;	
+}
+.rwd_text{
+	width: 350px;
+	border: 1px rgb(209, 207, 207) solid;
+	float: left;
+	margin-right: 20px;
+	box-shadow:0 5px 4px -4px gray;	
+}
+.rwd_text img{
+	margin-top: 40px;
+	margin-left: 50px;
+}
+.rwd{
+	display: flex;
+    margin-left: 80px;
+	padding-top: 15px;
+}
+.jquery_text{
+	float: left;
+	width: 354px;	
+	border: 1px rgb(209, 207, 207) solid;
+	box-shadow:0 5px 4px -4px gray;	
+}
+.jquery_text img{
+	margin-top: 30px;
+	margin-left: 100px;
+}
+.jquery{
+    margin-left: 80px;
+}
+.clearfix{
+	clear: both;
+}
+.jquery_text ul li{
+	list-style-type: disc;
+	list-style-position: inside;
+	padding-left: 10px;
+}
+.html_intro{
+	padding: 5px 12px 12px 12px;
+	letter-spacing:2px;
+	font-size: 20px;
+	line-height:25px;
+}
+.rwd_intro{
+	padding: 5px 12px 12px 12px;
+	letter-spacing:2px;
+	font-size: 20px;
+	line-height:25px;
+}
+.jquery_intro{
+	padding: 5px 12px 12px 12px;
+	letter-spacing:2px;
+	font-size: 20px;
+	line-height:30px;
+}
+.tbl{
+	margin-top: 50px;
+}
+.tbl_title{
+	margin-left: 390px;
+	font-size: 33px;
+	font-weight: bold;
+}
+#compare_tbl th{
+	background-color: #ececec;
+	text-align: left;
+	font-weight: bold;
+	border-bottom:1px solid rgb(206, 205, 205);
+	border-top:1px solid rgb(206, 205, 205);
+}
+#compare_tbl{
+	line-height:40px;
+	width: 960px;
+	margin-top: 30px;
+	margin-left:auto; 
+	margin-right:auto;
+}
+#compare_tbl tr{
+	border-bottom:1px solid rgb(206, 205, 205);
+}
+.form_submit{
+	margin-top: 60px;
+	height: 500px;
+	width: 1100px;
+	background-image: url(../images/bg_04.gif);
+	background-repeat: repeat-x;
+}
+.form_submit h1{
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	font-weight: bold;
+}
+.content_text{
+	margin-left: 40px;
+	margin-top: 20px;
+	width: 500px;
+	height: 250px;
+	border-radius:5px;
+	float: left;
+}
+.info{
+	margin-left: 600px;
+	padding-top: 20px;
+	color: white;
+	font-size: 22px;
+	line-height: 24px;
+}
+.info_name h2{
+	margin-bottom: 3px;
+	margin-top: 5px;
+}
+.info_phone h2{
+	margin-bottom: 3px;
+	margin-top: 10px;
+}
+.info_mail h2{
+	margin-bottom: 3px;
+	margin-top: 10px;
+}
+.user_name{
+	width: 480px;
+	height: 28px;
+	font-size: 26px;
+}
+.phone{
+	width: 480px;
+	height: 28px;
+	font-size: 26px;
+}
+.mail{
+	width: 480px;
+	height: 28px;
+	font-size: 26px;
+}
+input[type="submit"]{
+	margin-top: 20px;
+	margin-left: 400px;
+	padding:5px 15px; 
+	background:#00cc99; 
+	border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	color: white;
+	font-size: 15px;
+	width: 80px;
+	height: 30px;
+ }
+ .footer img{
+	 float: left;
+ }
+ .content_us{
+	 margin-left: 750px;
+ }
